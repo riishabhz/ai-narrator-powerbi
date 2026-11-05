@@ -6,6 +6,12 @@
 
 **AI Narrator** is a custom visual for Power BI. It turns the KPIs on your report into a short, spoken-style briefing written by AI, then reads it aloud.
 
+<p align="center">
+  <img src="docs/toolbar.png" alt="AI Narrator toolbar: Narrate, Replay, Stop, Voice and language picker" width="600">
+</p>
+
+**✨ Narrate** writes and reads the summary · **🔊 Replay** reads it again · **⏹ Stop** stops speaking · **🗣 Voice** switches voice · **🌐** changes the language
+
 - **Writes the summary with AI.** Choose OpenRouter, Claude, OpenAI, Gemini or Azure OpenAI.
 - **Reads it aloud** with the voices built into Windows. A 🗣 button switches between them.
 - **Translates** into 26 languages from a 🌐 picker on the visual, including Hindi, Tamil, Arabic, Chinese and French.

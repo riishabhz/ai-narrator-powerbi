@@ -1,0 +1,56 @@
+{
+  "default": "claude",
+  "providers": {
+    "claude": {
+      "type": "anthropic",
+      "model": "claude-opus-5-5",
+      "apiKey": "env:ANTHROPIC_API_KEY"
+    },
+    "claude-fast": {
+      "type": "anthropic",
+      "model": "claude-haiku-5-5",
+      "apiKey": "env:ANTHROPIC_API_KEY"
+    },
+    "opencode-go": {
+      "type": "openai",
+      "baseUrl": "https://opencode.ai/inference/go/openai/v1",
+      "model": "deepseek-v4.1-flash",
+      "apiKey": "env:OPENCODE_API_KEY",
+      "headers": { "x-opencode-session": "{session}" }
+    },
+    "openrouter": {
+      "type": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "model": "anthropic/claude-opus-5.5",
+      "apiKey": "env:OPENROUTER_API_KEY",
+      "headers": { "X-Title": "AI Narrator" }
+    },
+    "openai": {
+      "type": "openai",
+      "baseUrl": "https://api.openai.com/v1",
+      "model": "CHANGE-ME-to-an-openai-model-name",
+      "apiKey": "env:OPENAI_API_KEY"
+    },
+    "azure-openai": {
+      "type": "openai",
+      "baseUrl": "https://YOUR-RESOURCE.openai.azure.com/openai/v1",
+      "model": "YOUR-DEPLOYMENT-NAME",
+      "apiKey": "env:AZURE_OPENAI_API_KEY",
+      "authHeader": "api-key"
+    },
+    "gemini": {
+      "type": "openai",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "model": "CHANGE-ME-to-a-gemini-model-name",
+      "apiKey": "env:GEMINI_API_KEY"
+    },
+    "ollama": {
+      "type": "openai",
+      "baseUrl": "http://localhost:11434/v1",
+      "model": "llama3.1"
+    },
+    "mock": {
+      "type": "mock"
+    }
+  }
+}

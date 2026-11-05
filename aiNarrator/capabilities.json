@@ -1,0 +1,78 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Categories (e.g. Region, Month)",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Measures (e.g. Sales, Profit)",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                { "category": { "max": 4 }, "measure": { "max": 8 } }
+            ],
+            "table": {
+                "rows": {
+                    "select": [
+                        { "for": { "in": "category" } },
+                        { "for": { "in": "measure" } }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "top": { "count": 500 }
+                    }
+                }
+            }
+        }
+    ],
+    "objects": {
+        "connection": {
+            "properties": {
+                "provider": { "type": { "enumeration": [] } },
+                "apiKey": { "type": { "text": true } },
+                "model": { "type": { "text": true } },
+                "baseUrl": { "type": { "text": true } }
+            }
+        },
+        "narration": {
+            "properties": {
+                "length": { "type": { "enumeration": [] } },
+                "instructions": { "type": { "text": true } },
+                "autoSpeak": { "type": { "bool": true } }
+            }
+        },
+        "voice": {
+            "properties": {
+                "language": { "type": { "enumeration": [] } },
+                "voiceName": { "type": { "text": true } },
+                "rate": { "type": { "numeric": true } },
+                "pitch": { "type": { "numeric": true } },
+                "fontSize": { "type": { "formatting": { "fontSize": true } } }
+            }
+        }
+    },
+    "privileges": [
+        {
+            "name": "WebAccess",
+            "essential": true,
+            "parameters": [
+                "https://openrouter.ai",
+                "https://api.anthropic.com",
+                "https://api.openai.com",
+                "https://generativelanguage.googleapis.com",
+                "https://*.openai.azure.com",
+                "https://*.cognitiveservices.azure.com",
+                "https://*.services.ai.azure.com",
+                "http://localhost:8787",
+                "http://127.0.0.1:8787"
+            ]
+        }
+    ],
+    "supportsKeyboardFocus": true,
+    "supportsLandingPage": true,
+    "supportsEmptyDataView": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ai-narrator-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "mock": "node -e \"process.env.MOCK='1'; import('./server.mjs')\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.5.0"
+  }
+}

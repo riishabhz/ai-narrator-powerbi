@@ -1,0 +1,12 @@
+# Dependencies (reinstall with npm install)
+node_modules/
+
+# Build output and temp files (the release file is AI-Narrator.pbiviz at the top level)
+aiNarrator/.tmp/
+aiNarrator/dist/
+webpack.statistics.*.html
+
+# Secrets and logs
+.env
+.env.*
+*.log

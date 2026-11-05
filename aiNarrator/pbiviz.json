@@ -4,15 +4,15 @@
     "displayName": "AI Narrator",
     "guid": "aiNarratorAC821C927F314A67A8BA9A6670E48A33",
     "visualClassName": "Visual",
-    "version": "2.2.1.0",
-    "description": "Writes an AI summary of the data in the visual and reads it aloud.",
-    "supportUrl": "https://example.com",
+    "version": "2.2.2.0",
+    "description": "AI Narrator by Rishabh Bhardwaj: writes an AI summary of the KPIs in this visual and reads it aloud, in 26 languages.",
+    "supportUrl": "https://www.linkedin.com/in/rishabh-data-analytics/",
     "gitHubUrl": ""
   },
   "apiVersion": "5.11.1",
   "author": {
-    "name": "AI Narrator",
-    "email": "noreply@example.com"
+    "name": "Rishabh Bhardwaj",
+    "email": "rishabhbhardwaj2424@gmail.com"
   },
   "assets": {
     "icon": "assets/icon.png"
@@ -22,5 +22,5 @@
   "capabilities": "capabilities.json",
   "dependencies": null,
   "stringResources": [],
-  "version": "2.2.1.0"
+  "version": "2.2.2.0"
 }

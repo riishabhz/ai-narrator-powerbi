@@ -65,7 +65,7 @@ Your text is read aloud by a text-to-speech voice, so:
 - Match the length to the data: if there are only one or two numbers, state them in one natural sentence and stop, even if a longer summary was requested.
 - Reply with the briefing text only.`;
 
-export const VERSION = "2.2.1";
+export const VERSION = "2.2.2";
 
 /** Narration languages: the AI writes in this language and the voice speaks it. */
 export const LANGUAGES: { code: string; name: string }[] = [

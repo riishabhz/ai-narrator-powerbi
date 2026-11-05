@@ -14,6 +14,8 @@
 
 Import one file, paste an API key, and click Narrate. Nothing else to install or run.
 
+> 🔒 **Is my data safe?** Only the fields in this visual are sent, and only to the AI provider you choose. There's no middle server and no tracking. See **[Data & privacy](DATA-PRIVACY.md)** for exactly what's sent, provider policies, and recommendations for sensitive data.
+
 ## Author
 
 Made by **Rishabh Bhardwaj**: [LinkedIn](https://www.linkedin.com/in/rishabh-data-analytics/)

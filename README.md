@@ -6,6 +6,18 @@
 
 **AI Narrator** is a custom visual for Power BI. It turns the KPIs on your report into a short, spoken-style briefing written by AI, then reads it aloud.
 
+## 🎬 See it in action
+
+<p align="center">
+  <a href="https://github.com/riishabhz/ai-narrator-powerbi/raw/main/docs/ai-narrator-demo.mp4">
+    <img src="docs/ai-narrator-demo.gif" alt="AI Narrator demo: clicking Narrate on a Power BI report" width="900">
+  </a>
+</p>
+
+<p align="center">
+  🔊 <b><a href="https://github.com/riishabhz/ai-narrator-powerbi/raw/main/docs/ai-narrator-demo.mp4">Watch the full 30-second demo with sound</a></b>. The preview above is silent.
+</p>
+
 <p align="center">
   <img src="docs/toolbar.png" alt="AI Narrator toolbar: Narrate, Replay, Stop, Voice and language picker" width="600">
 </p>
